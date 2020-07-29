@@ -1,0 +1,107 @@
+html, body {
+	font-family: 'Staatliches', 'arial' !important;
+}
+
+.nav-link {
+	font-size: 28px;
+}
+
+.pizza-header {
+	width: 100%;
+ 	position: relative;
+ 	text-align: center;
+ 	color: white;
+}
+
+.store-banner {
+	width: 100%;
+	filter: brightness(65%);
+}
+
+.store-banner-text-centered {
+	font-size: 48px;
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	color: white;
+}
+
+.jumbotron-2 {
+	background-color: #8B0000 !important; /*Dark Red*/
+	border-radius: 0 !important;
+	color: white;
+}
+
+.display-4 {
+	padding-top: 25px;
+	text-align: center;
+}
+
+.lead {
+	text-align: center;
+}
+
+.fas {
+	font-size: 48px;
+	align-self: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 24px !important;
+  padding: 0;
+  margin: 0;
+}
+
+/* PRODUCT CARD */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.product-name {
+  color: black;
+  font-size: 24px;
+}
+
+.product-price {
+  color: grey;
+  font-size: 22px;
+}
+/*FOOTER*/
+.footer {
+	background-color: white;
+}
+
+.footer-headers {
+	font-family: 'Staatliches', 'arial' !important;
+	font-size: 28px;
+	color: black;
+}
+
+.footer-text {
+	font-family: 'Staatliches', 'arial' !important;
+	color: black;
+}
+
+#web-plug {
+	background-color: white;
+	color: black;
+	padding-left: 20px;
+	margin: 0;
+}
